@@ -63,6 +63,7 @@ There are No known bugs
 * Postgres Database
 * CSS
 * HTML
+* SQLalchemy
 
 
 
