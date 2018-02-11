@@ -2,15 +2,16 @@
     {% for pitch in pitch_list %}
     
   <div class="col-md-4">
+    <h1>Blog</h1>
     <div class="card border-success mb-3">
                 <div class="panel panel-info" style="height:auto;width:auto;margin-bottom:20%;margin-left:0%;">
-                    <div class="panel-heading" style="background-color: #03142B;height: 70px">
+                    <div class="panel-heading" style="background-color: black;height: 70px; border-top-left-radius: 30px">
                         <h2>{{pitch.title}}</h2>
                     </div>
                     <div class="panel-heading">
                         <h2>{{pitch.body}}</h2>
                     </div>
-                    <div class="panel-heading" style="background-color: #03142B; height: 70px";>
+                    <div class="panel-heading" style="background-color: black; height: 70px; border-bottom-right-radius: 30px";>
                         <h2>{{pitch.category}}</h2>
                     
                     </div>
@@ -21,13 +22,7 @@
             
     {% endfor %}
 {% endmacro %}
-<!-- Displaying comments macro -->
-{% macro displayComments(comment_list) %}
-    {% for comment in comment_list %}
-    
-     <p><a href="{{url_for('main.new_comment')}}">Create a Comment</a></p>
-     <li>{{macro.displayCommentList(comment)}}
-    </div>
-  </div>
-    {% endfor %}
-{% endmacro %}
+
+{% macro displayCommentList(comment_list) %} {% for comment in comment_list %}
+<div class="card-header bg-transparent border-success">{{comment.comment}}</div>
+{% endfor %} {% endmacro %}
