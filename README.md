@@ -45,3 +45,8 @@ As a writer I would like to:
 * install Flask $ python3.6 -m pip install flask
 * Install python version 3.6
 * Install gunicorn: (virtual)$ python3.6 -m pip install gunicorn
+* Install Heroku cli that helps to deploy your application.
+* Clone 
+* Atleast have a computer or a laptop
+* Have an internet connection
+* Visit  https://blogbri.herokuapp.com/
