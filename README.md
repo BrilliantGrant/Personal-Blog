@@ -56,5 +56,6 @@ As a writer I would like to:
 There are No known bugs
 
 ## Technologies Used
+* Python3.6
 
 
