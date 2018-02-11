@@ -7,3 +7,5 @@ Personal Blog is an application that helps in creating and sharing your opinions
 #### 9th February 2018
 
 ### By Brilliant Kaimba briegrant416@gmail.com
+
+### Description
