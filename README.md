@@ -18,3 +18,9 @@ As a user I would like to:
 * Comment on blog posts
 * Be alerted when a new post is made by joining a subscription.
 
+As a writer I would like to:
+* Sign in to the blog.
+* Create blog posts from the application.
+* Delete comments that I find insulting or degrading.
+* Update or delete blogs posts I have created.
+
