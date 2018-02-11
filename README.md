@@ -26,3 +26,9 @@ As a writer I would like to:
 
 ## Specifications
 
+| Behavior        | Input           | Outcome  |
+| ------------- |:-------------:| -----:|
+| Register to be a user | Your email : bri@g.com <br> Username : bri101 <br> Password : bri1 | New user is registered |
+| User Log in | Your email :bri@g.com <br> Password : bri1 | Logged in |
+| Display post title | N/A | List of post titles with the writer's name |
+
