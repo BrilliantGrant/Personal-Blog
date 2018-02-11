@@ -1,0 +1,68 @@
+<!-- {% macro displayPitchList(pitch_list) %} {% for pitch in pitch_list %}
+
+
+  <div class="col-md-4">
+    <div class="card border-success mb-3">
+
+      <div class="card-header bg-transparent border-success">{{pitch.title}}</div>
+
+      <div class="card-body text-success">
+        <h5 class="card-title"></h5>
+        <p class="card-text" style="background-color: black">{{pitch.body}}</p>
+        <a href="{{url_for('main.new_comment',id=pitch.id)}}">Vote</a>
+      </div>
+      <div class="card-footer bg-transparent border-success" style="background-color: red">{{pitch.category}}</div>
+      <h3>{{pitch.content}}</h3>
+
+    </div>
+  </div>
+
+
+{% endfor %} {% endmacro %}
+
+{% macro displayCommentList(comment_list) %} {% for comment in comment_list %}
+<div class="card-header bg-transparent border-success">{{comment.comment}}</div>
+{% endfor %} {% endmacro %}
+
+
+
+
+
+ -->
+
+
+
+{% macro displayPitchList(pitch_list) %}
+    {% for pitch in pitch_list %}
+    
+  <div class="col-md-4">
+    <div class="card border-success mb-3">
+                <div class="panel panel-info" style="height:auto;width:auto;margin-bottom:20%;margin-left:0%;">
+                    <div class="panel-heading" style="background-color: #03142B;height: 70px">
+                        <h2>{{pitch.title}}</h2>
+                    </div>
+                    <div class="panel-heading">
+                        <h2>{{pitch.body}}</h2>
+                    </div>
+                    <div class="panel-heading" style="background-color: #03142B; height: 70px";>
+                        <h2>{{pitch.category}}</h2>
+                    
+                    </div>
+
+                    </div>
+                </div>
+            </div>
+            
+    {% endfor %}
+{% endmacro %}
+
+<!-- Displaying comments macro -->
+{% macro displayComments(comment_list) %}
+    {% for comment in comment_list %}
+    
+     <p><a href="{{url_for('main.new_comment')}}">Create a Comment</a></p>
+     <li>{{macro.displayCommentList(comment)}}
+    </div>
+  </div>
+    {% endfor %}
+{% endmacro %}
