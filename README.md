@@ -42,3 +42,6 @@ As a writer I would like to:
 
 ## Setup/Installation Requirements
 
+* install Flask $ python3.6 -m pip install flask
+* Install python version 3.6
+* Install gunicorn: (virtual)$ python3.6 -m pip install gunicorn
