@@ -60,6 +60,8 @@ There are No known bugs
 * Flask framework
 * Flask
 * Bootstrap
+* Postgres Database
+
 
 
 
