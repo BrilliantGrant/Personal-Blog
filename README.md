@@ -15,4 +15,6 @@ This is an application that helps in creating and sharing your opinions also oth
 ## User Stories
 As a user I would like to:
 * View the blog posts submitted
+* Comment on blog posts
+* Be alerted when a new post is made by joining a subscription.
 
