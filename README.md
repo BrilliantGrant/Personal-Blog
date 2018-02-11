@@ -39,3 +39,6 @@ As a writer I would like to:
 | Delete a comment | **Click delete** for the specific comment | An authenticated user with a writer's role deletes a comment |
 | Delete a post | **Click Delete Post** | An authenticated user with a writer's role deletes a post and its comments |
 | Update a post | **Click Update Post** | An authenticated user with a writer's role is directed to a page with a form where the user can update the post and submit it |
+
+## Setup/Installation Requirements
+
