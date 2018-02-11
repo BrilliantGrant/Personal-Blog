@@ -50,3 +50,6 @@ As a writer I would like to:
 * Atleast have a computer or a laptop
 * Have an internet connection
 * Visit  https://blogbri.herokuapp.com/
+
+## Known Bugs
+
