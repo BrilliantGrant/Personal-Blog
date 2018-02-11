@@ -58,5 +58,7 @@ There are No known bugs
 ## Technologies Used
 * Python3.6
 * Flask framework
+* Flask
+
 
 
