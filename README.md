@@ -9,3 +9,6 @@ Personal Blog is an application that helps in creating and sharing your opinions
 ### By Brilliant Kaimba briegrant416@gmail.com
 
 ### Description
+
+This is an application that helps in creating and sharing your opinions also other users can read and comment on them.
+
