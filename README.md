@@ -61,6 +61,8 @@ There are No known bugs
 * Flask
 * Bootstrap
 * Postgres Database
+* CSS
+* HTML
 
 
 
