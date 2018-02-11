@@ -59,6 +59,8 @@ There are No known bugs
 * Python3.6
 * Flask framework
 * Flask
+* Bootstrap
+
 
 
 
