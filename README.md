@@ -24,3 +24,5 @@ As a writer I would like to:
 * Delete comments that I find insulting or degrading.
 * Update or delete blogs posts I have created.
 
+## Specifications
+
